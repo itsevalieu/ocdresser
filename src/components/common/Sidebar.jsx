@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Sidebar() {
+export const Sidebar = () => {
     return (
         <aside>
             <div><img src='' alt='logo' /></div>
@@ -14,3 +14,5 @@ export default function Sidebar() {
         </aside>
     );
 }
+
+export default Sidebar;
